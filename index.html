@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+  </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h1> Weather Finder</h1>
+    <h3 class="subheader">Find the weather in any city 🌦️</h3>
+
+    <div class="form-group">
+      <form>
+        <input type="text" placeholder="Enter a City.." id="cityname">
+        <button type="submit" class="btn" id="submit">🔍</button>
+      </form>
+    </div>
+
+    <div class="weather-card">
+      <h2 id="cityoutput"></h2>
+      <p id="temp"></p>
+      <p id="description"></p>
+      <div class="temps">
+        <p id="max"></p>
+        <p id="min"></p>
+      </div>
+      <p id="wind-speed"></p>
+      <div class="weather-icon"><img src=></div>
+    </div>
+
+  </div>
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>
